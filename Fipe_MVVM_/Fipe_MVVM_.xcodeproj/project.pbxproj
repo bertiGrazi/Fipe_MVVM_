@@ -1,0 +1,974 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3BC3CE378BEF84D98E785D4F /* Pods_Fipe_MVVM_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 379A43DA6DC9FFA84446314B /* Pods_Fipe_MVVM_.framework */; };
+		7620404D2F172F9D514D7E8A /* Pods_Fipe_MVVM_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBD25868B4E5C8D4CE3C57A0 /* Pods_Fipe_MVVM_Tests.framework */; };
+		F2327F0C258103D5002F2AF2 /* Year.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2327F0B258103D5002F2AF2 /* Year.swift */; };
+		F2327F1125810445002F2AF2 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2327F1025810445002F2AF2 /* Model.swift */; };
+		F2327F1625810492002F2AF2 /* Brand.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2327F1525810492002F2AF2 /* Brand.swift */; };
+		F2327F1F25810704002F2AF2 /* InfoCar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2327F1E25810704002F2AF2 /* InfoCar.swift */; };
+		F2327F2425810719002F2AF2 /* InfoCarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2327F2325810719002F2AF2 /* InfoCarViewModel.swift */; };
+		F2327F292581077F002F2AF2 /* InfoCarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2327F282581077F002F2AF2 /* InfoCarViewController.swift */; };
+		F2327F2E2581078F002F2AF2 /* InfoCarViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2327F2D2581078E002F2AF2 /* InfoCarViewController.storyboard */; };
+		F26A8F47257FDF3D00A89712 /* BrandViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26A8F46257FDF3D00A89712 /* BrandViewController.swift */; };
+		F26A8F59257FDFFB00A89712 /* FileTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26A8F57257FDFFB00A89712 /* FileTableViewCell.swift */; };
+		F26A8F5A257FDFFB00A89712 /* FileTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F26A8F58257FDFFB00A89712 /* FileTableViewCell.xib */; };
+		F26A8F64257FE19200A89712 /* BrandsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26A8F63257FE19200A89712 /* BrandsViewModel.swift */; };
+		F26A8F69257FE7E500A89712 /* ModelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26A8F68257FE7E500A89712 /* ModelViewController.swift */; };
+		F26A8F76257FE82700A89712 /* ModelViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F26A8F75257FE82700A89712 /* ModelViewController.storyboard */; };
+		F26A8F7B257FE9CD00A89712 /* ModelsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26A8F7A257FE9CD00A89712 /* ModelsViewModel.swift */; };
+		F26A8F8A257FF55300A89712 /* Fipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26A8F89257FF55300A89712 /* Fipe.swift */; };
+		F26A8F92257FF61000A89712 /* YearsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26A8F91257FF61000A89712 /* YearsViewModel.swift */; };
+		F26A8F98257FF7EF00A89712 /* YearsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26A8F97257FF7EF00A89712 /* YearsViewController.swift */; };
+		F26A8F9D257FF7F900A89712 /* YearsViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F26A8F9C257FF7F900A89712 /* YearsViewController.storyboard */; };
+		F2E653FF257FDE2300EA7DC5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E653FE257FDE2300EA7DC5 /* AppDelegate.swift */; };
+		F2E65401257FDE2300EA7DC5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E65400257FDE2300EA7DC5 /* SceneDelegate.swift */; };
+		F2E65403257FDE2300EA7DC5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E65402257FDE2300EA7DC5 /* ViewController.swift */; };
+		F2E65408257FDE2800EA7DC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2E65407257FDE2800EA7DC5 /* Assets.xcassets */; };
+		F2E6540B257FDE2800EA7DC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2E65409257FDE2800EA7DC5 /* LaunchScreen.storyboard */; };
+		F2E65416257FDE2800EA7DC5 /* Fipe_MVVM_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E65415257FDE2800EA7DC5 /* Fipe_MVVM_Tests.swift */; };
+		F2E65421257FDE2800EA7DC5 /* Fipe_MVVM_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E65420257FDE2800EA7DC5 /* Fipe_MVVM_UITests.swift */; };
+		F2FF278F25826AA600E1B3A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2FF278E25826AA600E1B3A4 /* Main.storyboard */; };
+		F2FF279B258293B300E1B3A4 /* fipe.png in Resources */ = {isa = PBXBuildFile; fileRef = F2FF279A258293B300E1B3A4 /* fipe.png */; };
+		FC7D079476E839B2DD5B6BC6 /* Pods_Fipe_MVVM__Fipe_MVVM_UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3E54540DA5211E6E4896471 /* Pods_Fipe_MVVM__Fipe_MVVM_UITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F2E65412257FDE2800EA7DC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2E653F3257FDE2300EA7DC5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2E653FA257FDE2300EA7DC5;
+			remoteInfo = Fipe_MVVM_;
+		};
+		F2E6541D257FDE2800EA7DC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2E653F3257FDE2300EA7DC5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2E653FA257FDE2300EA7DC5;
+			remoteInfo = Fipe_MVVM_;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03E5EE480E336CC38CF95A77 /* Pods-Fipe_MVVM_-Fipe_MVVM_UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fipe_MVVM_-Fipe_MVVM_UITests.debug.xcconfig"; path = "Target Support Files/Pods-Fipe_MVVM_-Fipe_MVVM_UITests/Pods-Fipe_MVVM_-Fipe_MVVM_UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1E4420A250939E6A3B5237F7 /* Pods-Fipe_MVVM_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fipe_MVVM_Tests.debug.xcconfig"; path = "Target Support Files/Pods-Fipe_MVVM_Tests/Pods-Fipe_MVVM_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		379A43DA6DC9FFA84446314B /* Pods_Fipe_MVVM_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fipe_MVVM_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		986238849E57D20B2AB11018 /* Pods-Fipe_MVVM_-Fipe_MVVM_UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fipe_MVVM_-Fipe_MVVM_UITests.release.xcconfig"; path = "Target Support Files/Pods-Fipe_MVVM_-Fipe_MVVM_UITests/Pods-Fipe_MVVM_-Fipe_MVVM_UITests.release.xcconfig"; sourceTree = "<group>"; };
+		BBD25868B4E5C8D4CE3C57A0 /* Pods_Fipe_MVVM_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fipe_MVVM_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3E54540DA5211E6E4896471 /* Pods_Fipe_MVVM__Fipe_MVVM_UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fipe_MVVM__Fipe_MVVM_UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9A29E74A5FA8C971F56F5CD /* Pods-Fipe_MVVM_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fipe_MVVM_Tests.release.xcconfig"; path = "Target Support Files/Pods-Fipe_MVVM_Tests/Pods-Fipe_MVVM_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		D84FFEDFB7DDE34EDF3B695C /* Pods-Fipe_MVVM_.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fipe_MVVM_.release.xcconfig"; path = "Target Support Files/Pods-Fipe_MVVM_/Pods-Fipe_MVVM_.release.xcconfig"; sourceTree = "<group>"; };
+		F2327F0B258103D5002F2AF2 /* Year.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Year.swift; sourceTree = "<group>"; };
+		F2327F1025810445002F2AF2 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		F2327F1525810492002F2AF2 /* Brand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Brand.swift; sourceTree = "<group>"; };
+		F2327F1E25810704002F2AF2 /* InfoCar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoCar.swift; sourceTree = "<group>"; };
+		F2327F2325810719002F2AF2 /* InfoCarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoCarViewModel.swift; sourceTree = "<group>"; };
+		F2327F282581077F002F2AF2 /* InfoCarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoCarViewController.swift; sourceTree = "<group>"; };
+		F2327F2D2581078E002F2AF2 /* InfoCarViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = InfoCarViewController.storyboard; sourceTree = "<group>"; };
+		F26A8F46257FDF3D00A89712 /* BrandViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandViewController.swift; sourceTree = "<group>"; };
+		F26A8F57257FDFFB00A89712 /* FileTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileTableViewCell.swift; sourceTree = "<group>"; };
+		F26A8F58257FDFFB00A89712 /* FileTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FileTableViewCell.xib; sourceTree = "<group>"; };
+		F26A8F63257FE19200A89712 /* BrandsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandsViewModel.swift; sourceTree = "<group>"; };
+		F26A8F68257FE7E500A89712 /* ModelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelViewController.swift; sourceTree = "<group>"; };
+		F26A8F75257FE82700A89712 /* ModelViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ModelViewController.storyboard; sourceTree = "<group>"; };
+		F26A8F7A257FE9CD00A89712 /* ModelsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelsViewModel.swift; sourceTree = "<group>"; };
+		F26A8F89257FF55300A89712 /* Fipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fipe.swift; sourceTree = "<group>"; };
+		F26A8F91257FF61000A89712 /* YearsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YearsViewModel.swift; sourceTree = "<group>"; };
+		F26A8F97257FF7EF00A89712 /* YearsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YearsViewController.swift; sourceTree = "<group>"; };
+		F26A8F9C257FF7F900A89712 /* YearsViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = YearsViewController.storyboard; sourceTree = "<group>"; };
+		F2E653FB257FDE2300EA7DC5 /* Fipe_MVVM_.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fipe_MVVM_.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2E653FE257FDE2300EA7DC5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F2E65400257FDE2300EA7DC5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F2E65402257FDE2300EA7DC5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F2E65407257FDE2800EA7DC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F2E6540A257FDE2800EA7DC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F2E6540C257FDE2800EA7DC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2E65411257FDE2800EA7DC5 /* Fipe_MVVM_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Fipe_MVVM_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2E65415257FDE2800EA7DC5 /* Fipe_MVVM_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fipe_MVVM_Tests.swift; sourceTree = "<group>"; };
+		F2E65417257FDE2800EA7DC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2E6541C257FDE2800EA7DC5 /* Fipe_MVVM_UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Fipe_MVVM_UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2E65420257FDE2800EA7DC5 /* Fipe_MVVM_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fipe_MVVM_UITests.swift; sourceTree = "<group>"; };
+		F2E65422257FDE2800EA7DC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2FF278E25826AA600E1B3A4 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		F2FF279A258293B300E1B3A4 /* fipe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fipe.png; sourceTree = "<group>"; };
+		F96801D82A9902D70E311888 /* Pods-Fipe_MVVM_.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fipe_MVVM_.debug.xcconfig"; path = "Target Support Files/Pods-Fipe_MVVM_/Pods-Fipe_MVVM_.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F2E653F8257FDE2300EA7DC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BC3CE378BEF84D98E785D4F /* Pods_Fipe_MVVM_.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2E6540E257FDE2800EA7DC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7620404D2F172F9D514D7E8A /* Pods_Fipe_MVVM_Tests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2E65419257FDE2800EA7DC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC7D079476E839B2DD5B6BC6 /* Pods_Fipe_MVVM__Fipe_MVVM_UITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8A368A5036A700BB5FCD39C0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				379A43DA6DC9FFA84446314B /* Pods_Fipe_MVVM_.framework */,
+				C3E54540DA5211E6E4896471 /* Pods_Fipe_MVVM__Fipe_MVVM_UITests.framework */,
+				BBD25868B4E5C8D4CE3C57A0 /* Pods_Fipe_MVVM_Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CDA63988E320358E08D25A7C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F96801D82A9902D70E311888 /* Pods-Fipe_MVVM_.debug.xcconfig */,
+				D84FFEDFB7DDE34EDF3B695C /* Pods-Fipe_MVVM_.release.xcconfig */,
+				03E5EE480E336CC38CF95A77 /* Pods-Fipe_MVVM_-Fipe_MVVM_UITests.debug.xcconfig */,
+				986238849E57D20B2AB11018 /* Pods-Fipe_MVVM_-Fipe_MVVM_UITests.release.xcconfig */,
+				1E4420A250939E6A3B5237F7 /* Pods-Fipe_MVVM_Tests.debug.xcconfig */,
+				C9A29E74A5FA8C971F56F5CD /* Pods-Fipe_MVVM_Tests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F2327F1A258106AB002F2AF2 /* InfoCar */ = {
+			isa = PBXGroup;
+			children = (
+				F2FF27992582939600E1B3A4 /* Image */,
+				F2327F1D258106F5002F2AF2 /* Model */,
+				F2327F1C258106EC002F2AF2 /* ViewModel */,
+				F2327F1B258106E5002F2AF2 /* View */,
+			);
+			path = InfoCar;
+			sourceTree = "<group>";
+		};
+		F2327F1B258106E5002F2AF2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F2327F282581077F002F2AF2 /* InfoCarViewController.swift */,
+				F2327F2D2581078E002F2AF2 /* InfoCarViewController.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F2327F1C258106EC002F2AF2 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F2327F2325810719002F2AF2 /* InfoCarViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F2327F1D258106F5002F2AF2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F2327F1E25810704002F2AF2 /* InfoCar.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F26A8F41257FDEF400A89712 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				F26A8F89257FF55300A89712 /* Fipe.swift */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		F26A8F4B257FDFCF00A89712 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				F26A8F57257FDFFB00A89712 /* FileTableViewCell.swift */,
+				F26A8F58257FDFFB00A89712 /* FileTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		F2DCB4A42580325700E76732 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				F26A8F41257FDEF400A89712 /* Class */,
+				F26A8F4B257FDFCF00A89712 /* Cell */,
+				F2DCB4A52580328200E76732 /* Brand */,
+				F2DCB4A92580361100E76732 /* Model */,
+				F2DCB4AD2580369100E76732 /* Year */,
+				F2327F1A258106AB002F2AF2 /* InfoCar */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		F2DCB4A52580328200E76732 /* Brand */ = {
+			isa = PBXGroup;
+			children = (
+				F2DCB4A8258032A600E76732 /* View */,
+				F2DCB4A72580329F00E76732 /* Model */,
+				F2DCB4A62580329500E76732 /* ViewModel */,
+			);
+			path = Brand;
+			sourceTree = "<group>";
+		};
+		F2DCB4A62580329500E76732 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F26A8F63257FE19200A89712 /* BrandsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F2DCB4A72580329F00E76732 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F2327F1525810492002F2AF2 /* Brand.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F2DCB4A8258032A600E76732 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F2FF278E25826AA600E1B3A4 /* Main.storyboard */,
+				F26A8F46257FDF3D00A89712 /* BrandViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F2DCB4A92580361100E76732 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F2DCB4AC2580364300E76732 /* Model */,
+				F2DCB4AB2580363D00E76732 /* View */,
+				F2DCB4AA2580362000E76732 /* ViewModel */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F2DCB4AA2580362000E76732 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F26A8F7A257FE9CD00A89712 /* ModelsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F2DCB4AB2580363D00E76732 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F26A8F68257FE7E500A89712 /* ModelViewController.swift */,
+				F26A8F75257FE82700A89712 /* ModelViewController.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F2DCB4AC2580364300E76732 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F2327F1025810445002F2AF2 /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F2DCB4AD2580369100E76732 /* Year */ = {
+			isa = PBXGroup;
+			children = (
+				F2DCB4AF258036B000E76732 /* ViewModel */,
+				F2DCB4AE2580369F00E76732 /* View */,
+				F2DCB4B0258036B900E76732 /* Model */,
+			);
+			path = Year;
+			sourceTree = "<group>";
+		};
+		F2DCB4AE2580369F00E76732 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F26A8F97257FF7EF00A89712 /* YearsViewController.swift */,
+				F26A8F9C257FF7F900A89712 /* YearsViewController.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F2DCB4AF258036B000E76732 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F26A8F91257FF61000A89712 /* YearsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F2DCB4B0258036B900E76732 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F2327F0B258103D5002F2AF2 /* Year.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F2E653F2257FDE2300EA7DC5 = {
+			isa = PBXGroup;
+			children = (
+				F2E653FD257FDE2300EA7DC5 /* Fipe_MVVM_ */,
+				F2E65414257FDE2800EA7DC5 /* Fipe_MVVM_Tests */,
+				F2E6541F257FDE2800EA7DC5 /* Fipe_MVVM_UITests */,
+				F2E653FC257FDE2300EA7DC5 /* Products */,
+				CDA63988E320358E08D25A7C /* Pods */,
+				8A368A5036A700BB5FCD39C0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F2E653FC257FDE2300EA7DC5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F2E653FB257FDE2300EA7DC5 /* Fipe_MVVM_.app */,
+				F2E65411257FDE2800EA7DC5 /* Fipe_MVVM_Tests.xctest */,
+				F2E6541C257FDE2800EA7DC5 /* Fipe_MVVM_UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F2E653FD257FDE2300EA7DC5 /* Fipe_MVVM_ */ = {
+			isa = PBXGroup;
+			children = (
+				F2DCB4A42580325700E76732 /* Scenes */,
+				F2E653FE257FDE2300EA7DC5 /* AppDelegate.swift */,
+				F2E65400257FDE2300EA7DC5 /* SceneDelegate.swift */,
+				F2E65402257FDE2300EA7DC5 /* ViewController.swift */,
+				F2E65407257FDE2800EA7DC5 /* Assets.xcassets */,
+				F2E65409257FDE2800EA7DC5 /* LaunchScreen.storyboard */,
+				F2E6540C257FDE2800EA7DC5 /* Info.plist */,
+			);
+			path = Fipe_MVVM_;
+			sourceTree = "<group>";
+		};
+		F2E65414257FDE2800EA7DC5 /* Fipe_MVVM_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F2E65415257FDE2800EA7DC5 /* Fipe_MVVM_Tests.swift */,
+				F2E65417257FDE2800EA7DC5 /* Info.plist */,
+			);
+			path = Fipe_MVVM_Tests;
+			sourceTree = "<group>";
+		};
+		F2E6541F257FDE2800EA7DC5 /* Fipe_MVVM_UITests */ = {
+			isa = PBXGroup;
+			children = (
+				F2E65420257FDE2800EA7DC5 /* Fipe_MVVM_UITests.swift */,
+				F2E65422257FDE2800EA7DC5 /* Info.plist */,
+			);
+			path = Fipe_MVVM_UITests;
+			sourceTree = "<group>";
+		};
+		F2FF27992582939600E1B3A4 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				F2FF279A258293B300E1B3A4 /* fipe.png */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F2E653FA257FDE2300EA7DC5 /* Fipe_MVVM_ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2E65425257FDE2800EA7DC5 /* Build configuration list for PBXNativeTarget "Fipe_MVVM_" */;
+			buildPhases = (
+				5DCABD33E84AF74420299C0A /* [CP] Check Pods Manifest.lock */,
+				F2E653F7257FDE2300EA7DC5 /* Sources */,
+				F2E653F8257FDE2300EA7DC5 /* Frameworks */,
+				F2E653F9257FDE2300EA7DC5 /* Resources */,
+				EAF2BAB02CD4DABBA13C2049 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fipe_MVVM_;
+			productName = Fipe_MVVM_;
+			productReference = F2E653FB257FDE2300EA7DC5 /* Fipe_MVVM_.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F2E65410257FDE2800EA7DC5 /* Fipe_MVVM_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2E65428257FDE2800EA7DC5 /* Build configuration list for PBXNativeTarget "Fipe_MVVM_Tests" */;
+			buildPhases = (
+				04C87982F5F8099CB223A2C1 /* [CP] Check Pods Manifest.lock */,
+				F2E6540D257FDE2800EA7DC5 /* Sources */,
+				F2E6540E257FDE2800EA7DC5 /* Frameworks */,
+				F2E6540F257FDE2800EA7DC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F2E65413257FDE2800EA7DC5 /* PBXTargetDependency */,
+			);
+			name = Fipe_MVVM_Tests;
+			productName = Fipe_MVVM_Tests;
+			productReference = F2E65411257FDE2800EA7DC5 /* Fipe_MVVM_Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F2E6541B257FDE2800EA7DC5 /* Fipe_MVVM_UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2E6542B257FDE2800EA7DC5 /* Build configuration list for PBXNativeTarget "Fipe_MVVM_UITests" */;
+			buildPhases = (
+				899A83557B64ACC53283B3BF /* [CP] Check Pods Manifest.lock */,
+				F2E65418257FDE2800EA7DC5 /* Sources */,
+				F2E65419257FDE2800EA7DC5 /* Frameworks */,
+				F2E6541A257FDE2800EA7DC5 /* Resources */,
+				46760BCEAA3EEF7F332FB14A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F2E6541E257FDE2800EA7DC5 /* PBXTargetDependency */,
+			);
+			name = Fipe_MVVM_UITests;
+			productName = Fipe_MVVM_UITests;
+			productReference = F2E6541C257FDE2800EA7DC5 /* Fipe_MVVM_UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F2E653F3257FDE2300EA7DC5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					F2E653FA257FDE2300EA7DC5 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					F2E65410257FDE2800EA7DC5 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = F2E653FA257FDE2300EA7DC5;
+					};
+					F2E6541B257FDE2800EA7DC5 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = F2E653FA257FDE2300EA7DC5;
+					};
+				};
+			};
+			buildConfigurationList = F2E653F6257FDE2300EA7DC5 /* Build configuration list for PBXProject "Fipe_MVVM_" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F2E653F2257FDE2300EA7DC5;
+			productRefGroup = F2E653FC257FDE2300EA7DC5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F2E653FA257FDE2300EA7DC5 /* Fipe_MVVM_ */,
+				F2E65410257FDE2800EA7DC5 /* Fipe_MVVM_Tests */,
+				F2E6541B257FDE2800EA7DC5 /* Fipe_MVVM_UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F2E653F9257FDE2300EA7DC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2327F2E2581078F002F2AF2 /* InfoCarViewController.storyboard in Resources */,
+				F2FF278F25826AA600E1B3A4 /* Main.storyboard in Resources */,
+				F26A8F76257FE82700A89712 /* ModelViewController.storyboard in Resources */,
+				F2E6540B257FDE2800EA7DC5 /* LaunchScreen.storyboard in Resources */,
+				F26A8F5A257FDFFB00A89712 /* FileTableViewCell.xib in Resources */,
+				F2E65408257FDE2800EA7DC5 /* Assets.xcassets in Resources */,
+				F26A8F9D257FF7F900A89712 /* YearsViewController.storyboard in Resources */,
+				F2FF279B258293B300E1B3A4 /* fipe.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2E6540F257FDE2800EA7DC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2E6541A257FDE2800EA7DC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		04C87982F5F8099CB223A2C1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Fipe_MVVM_Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		46760BCEAA3EEF7F332FB14A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Fipe_MVVM_-Fipe_MVVM_UITests/Pods-Fipe_MVVM_-Fipe_MVVM_UITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Fipe_MVVM_-Fipe_MVVM_UITests/Pods-Fipe_MVVM_-Fipe_MVVM_UITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Fipe_MVVM_-Fipe_MVVM_UITests/Pods-Fipe_MVVM_-Fipe_MVVM_UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5DCABD33E84AF74420299C0A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Fipe_MVVM_-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		899A83557B64ACC53283B3BF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Fipe_MVVM_-Fipe_MVVM_UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EAF2BAB02CD4DABBA13C2049 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Fipe_MVVM_/Pods-Fipe_MVVM_-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Fipe_MVVM_/Pods-Fipe_MVVM_-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Fipe_MVVM_/Pods-Fipe_MVVM_-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F2E653F7257FDE2300EA7DC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2E65403257FDE2300EA7DC5 /* ViewController.swift in Sources */,
+				F26A8F8A257FF55300A89712 /* Fipe.swift in Sources */,
+				F26A8F64257FE19200A89712 /* BrandsViewModel.swift in Sources */,
+				F2327F1F25810704002F2AF2 /* InfoCar.swift in Sources */,
+				F26A8F98257FF7EF00A89712 /* YearsViewController.swift in Sources */,
+				F2E653FF257FDE2300EA7DC5 /* AppDelegate.swift in Sources */,
+				F26A8F69257FE7E500A89712 /* ModelViewController.swift in Sources */,
+				F2327F1125810445002F2AF2 /* Model.swift in Sources */,
+				F26A8F59257FDFFB00A89712 /* FileTableViewCell.swift in Sources */,
+				F26A8F47257FDF3D00A89712 /* BrandViewController.swift in Sources */,
+				F2327F2425810719002F2AF2 /* InfoCarViewModel.swift in Sources */,
+				F26A8F7B257FE9CD00A89712 /* ModelsViewModel.swift in Sources */,
+				F2E65401257FDE2300EA7DC5 /* SceneDelegate.swift in Sources */,
+				F2327F1625810492002F2AF2 /* Brand.swift in Sources */,
+				F2327F0C258103D5002F2AF2 /* Year.swift in Sources */,
+				F26A8F92257FF61000A89712 /* YearsViewModel.swift in Sources */,
+				F2327F292581077F002F2AF2 /* InfoCarViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2E6540D257FDE2800EA7DC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2E65416257FDE2800EA7DC5 /* Fipe_MVVM_Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2E65418257FDE2800EA7DC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2E65421257FDE2800EA7DC5 /* Fipe_MVVM_UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F2E65413257FDE2800EA7DC5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F2E653FA257FDE2300EA7DC5 /* Fipe_MVVM_ */;
+			targetProxy = F2E65412257FDE2800EA7DC5 /* PBXContainerItemProxy */;
+		};
+		F2E6541E257FDE2800EA7DC5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F2E653FA257FDE2300EA7DC5 /* Fipe_MVVM_ */;
+			targetProxy = F2E6541D257FDE2800EA7DC5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F2E65409257FDE2800EA7DC5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2E6540A257FDE2800EA7DC5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F2E65423257FDE2800EA7DC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F2E65424257FDE2800EA7DC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F2E65426257FDE2800EA7DC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F96801D82A9902D70E311888 /* Pods-Fipe_MVVM_.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Fipe_MVVM_/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.github-bertiGrazi.Fipe-MVVM-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F2E65427257FDE2800EA7DC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D84FFEDFB7DDE34EDF3B695C /* Pods-Fipe_MVVM_.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Fipe_MVVM_/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.github-bertiGrazi.Fipe-MVVM-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F2E65429257FDE2800EA7DC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E4420A250939E6A3B5237F7 /* Pods-Fipe_MVVM_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Fipe_MVVM_Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.github-bertiGrazi.Fipe-MVVM-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fipe_MVVM_.app/Fipe_MVVM_";
+			};
+			name = Debug;
+		};
+		F2E6542A257FDE2800EA7DC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9A29E74A5FA8C971F56F5CD /* Pods-Fipe_MVVM_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Fipe_MVVM_Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.github-bertiGrazi.Fipe-MVVM-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fipe_MVVM_.app/Fipe_MVVM_";
+			};
+			name = Release;
+		};
+		F2E6542C257FDE2800EA7DC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03E5EE480E336CC38CF95A77 /* Pods-Fipe_MVVM_-Fipe_MVVM_UITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Fipe_MVVM_UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.github-bertiGrazi.Fipe-MVVM-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Fipe_MVVM_;
+			};
+			name = Debug;
+		};
+		F2E6542D257FDE2800EA7DC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 986238849E57D20B2AB11018 /* Pods-Fipe_MVVM_-Fipe_MVVM_UITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Fipe_MVVM_UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.github-bertiGrazi.Fipe-MVVM-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Fipe_MVVM_;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F2E653F6257FDE2300EA7DC5 /* Build configuration list for PBXProject "Fipe_MVVM_" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2E65423257FDE2800EA7DC5 /* Debug */,
+				F2E65424257FDE2800EA7DC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2E65425257FDE2800EA7DC5 /* Build configuration list for PBXNativeTarget "Fipe_MVVM_" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2E65426257FDE2800EA7DC5 /* Debug */,
+				F2E65427257FDE2800EA7DC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2E65428257FDE2800EA7DC5 /* Build configuration list for PBXNativeTarget "Fipe_MVVM_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2E65429257FDE2800EA7DC5 /* Debug */,
+				F2E6542A257FDE2800EA7DC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2E6542B257FDE2800EA7DC5 /* Build configuration list for PBXNativeTarget "Fipe_MVVM_UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2E6542C257FDE2800EA7DC5 /* Debug */,
+				F2E6542D257FDE2800EA7DC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F2E653F3257FDE2300EA7DC5 /* Project object */;
+}
